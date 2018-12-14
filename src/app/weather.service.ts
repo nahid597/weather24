@@ -26,7 +26,8 @@ export class WeatherService {
 
   getWeatherData(cityName: string): Observable<any> {
     return this.http.get('https://api.openweathermap.org/data/2.5/weather?q='
-     + cityName + '&APPID=cb51cb1b7a819e9d44bb6f2c92cf89f1&units=metric');
+     + cityName + '&APPID=cb51cb1b7a819e9d44bb6f2c92cf89f1&units=metric')
+     .pipe(catchError(this.errorHandelar));
   }
 
   errorHandelar(error: HttpErrorResponse) {
