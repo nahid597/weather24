@@ -1,0 +1,38 @@
+
+.col-1 {
+    display: inline-block;
+   
+}
+
+.col-1 h3 {
+    margin: 0 0 10px 0;
+    padding: 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#inputsection {
+     padding: 10px;
+    margin: 10px 0;
+}
+
+
+.weather-element {
+    box-shadow: 1px 1px 6px #ccc;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.btn-primary {
+    margin-left: 10px;
+}
+
+.weather-list {
+    box-shadow: 1px 1px 6px #ccc;
+    margin: 20px auto;
+    width: 40%;
+}
+
+.info {
+    color: rgb(166, 207, 207);
+}
