@@ -23,6 +23,7 @@ export class WeatherSearchComponent implements OnInit {
       const weatherItem = new WeatherItem(data.name, data.weather[0].description, data.main.temp);
       this.weatherService.addWeatherItem(weatherItem);
     }, error => this.errormsg = error);
+
   }
 
   onSerachLoaction(cityName: string) {

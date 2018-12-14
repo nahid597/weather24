@@ -1,11 +1,15 @@
 
 .weather-list {
     margin: 20px auto;
-    width: 40%;
+    width: 50%;
 }
 
 .weather-element {
     box-shadow: 1px 1px 6px #ccc;
     padding: 10px;
     margin: 10px 0;
+}
+
+.sidebar {
+    margin-top: 10px;
 }

@@ -30,7 +30,8 @@
 .weather-list {
     box-shadow: 1px 1px 6px #ccc;
     margin: 20px auto;
-    width: 40%;
+    width: 50%;
+    float: left;
 }
 
 .info {
@@ -39,5 +40,6 @@
 
 .label {
     margin-right: 10px;
+    font-weight: bold;
 
 }
