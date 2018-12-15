@@ -1,4 +1,7 @@
 # Weather24
+  This is weather check web application. Using this web application we can easily know the current time weather. It's show the   temperature in °C and also show the descriptions of sky. Build this web application i use openweathermap api. In this web       application save city name if he or she want. Then he will get current weather update easily of those cities that they are     saved.
+
+## Version
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.4.
 
