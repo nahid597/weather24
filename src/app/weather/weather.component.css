@@ -8,3 +8,11 @@
     padding-top: 30px;
     color: white;
 }
+
+.home {
+    float: left;
+    font-size: 15px;
+    margin-left: 20px;
+    color: azure;
+    background-color: black;
+}

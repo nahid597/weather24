@@ -3,3 +3,18 @@
    margin: auto;
    
 }
+
+.sidebar {
+   width: 30%;
+   float: left;
+}
+
+.appweather {
+   width: 60%;
+   margin-left: 40%;
+}
+
+.weathersearch {
+ margin-left: 10%;
+
+}

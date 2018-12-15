@@ -12,4 +12,8 @@ export class WeatherComponent implements OnInit {
   ngOnInit() {
   }
 
+  reload() {
+    window.location.reload();
+  }
+
 }

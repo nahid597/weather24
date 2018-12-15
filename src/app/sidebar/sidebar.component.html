@@ -5,10 +5,10 @@
     (click) = "onSaveNew()"
   >Save list to Profile</button>
 
-  <article class="profilestyle">
-    <span class="deleteX" (click)="onDeleteProfile($event)">X</span>
-    <h3>Profiles Name</h3>
-    <p>Cities: New York, London</p>
+  <article class="profilestyle" *ngFor = "let profile of profiles" (click) ="onLoadProfile(profile)" >
+    <span class="deleteX" (click)="onDeleteProfile($event, profile)">X</span>
+    <h3>{{profile.profileName}}</h3>
+    <p>Cities: {{profile.cities.join(', ')}}</p>
     
   </article>
 </div>

@@ -10,6 +10,7 @@ import { WeatherSearchComponent } from './weather-search/weather-search.componen
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { SidebarComponent } from './sidebar/sidebar.component';
+import { RouterModule, Routes } from '@angular/router';
 
 
 @NgModule({
@@ -24,7 +25,11 @@ import { SidebarComponent } from './sidebar/sidebar.component';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    RouterModule.forRoot([
+      {path: 'home', component: AppComponent}
+    ]),
+
   ],
   providers: [
     WeatherService

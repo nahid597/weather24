@@ -33,4 +33,8 @@ export class WeatherService {
   errorHandelar(error: HttpErrorResponse) {
     return throwError(error.message || 'server error');
   }
+
+  clearWeatherItem() {
+    return WEATHER_ITEMS.splice(0);
+  }
 }

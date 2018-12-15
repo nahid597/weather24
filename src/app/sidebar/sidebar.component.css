@@ -10,7 +10,8 @@ h3 {
 .profilestyle {
     margin-top: 20px;
     box-shadow: 1px 6px 1px #d6c4c4;
-    background-color: lightblue
+    background-color: lightblue;
+    cursor: pointer;
 }
 
 .deleteX {
